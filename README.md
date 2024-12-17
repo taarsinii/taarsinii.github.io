@@ -28,7 +28,6 @@ This application interacts with a RESTful API to manage booking operations, incl
 
 3. **Create a Reservation**:
    - Sends a `POST` request to add a new reservation using the user's provided data, including the name, phone number, meal type, date, number of guests, and table size. These data will be display in JSON format.
-   - ![Alt text](ss.png)
 
 5. **Update a Reservation**:
    - To change an existing reservation, send a `PUT` request with the changed information which change new table size.
@@ -38,7 +37,7 @@ This application interacts with a RESTful API to manage booking operations, incl
 ---
 
 ## **Technologies Used**  
-- **Android Studio**: For app development.  
-- **Volley Library**: For handling API calls.  
-- **Java**: As the primary programming language.  
+- **Android Studio**: For Restaurant Table Reservation application development .  
+- **Volley Library**: For handling API requests which is Create,Read,Update and Delete .  
+- **Java**: As the main programming language.  
 
