@@ -23,11 +23,12 @@ This application interacts with a RESTful API to manage booking operations, incl
 
 ### **How the Application Interacts with the API**  
 
-1. **Fetch Reservations**:
+1. **Get the Reservations**:
    - To retrieve all reservation data, send a `GET` request to the API and show it in the application's interface.  
 
 3. **Create a Reservation**:
-   - Sends a `POST` request to add a new reservation using the user's provided data, including the name, phone number, meal type, date, number of guests, and table size. These data will be display in JSON format.  
+   - Sends a `POST` request to add a new reservation using the user's provided data, including the name, phone number, meal type, date, number of guests, and table size. These data will be display in JSON format.
+   - ![Alt text](ss.png)
 
 5. **Update a Reservation**:
    - To change an existing reservation, send a `PUT` request with the changed information which change new table size.
