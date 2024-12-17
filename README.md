@@ -11,11 +11,10 @@ The Restaurant Table Reservation Application is a Java-based Android application
 - Be notified about bookings.
 - Manage user account information.
 
-#API Integration
-
+##API Integration
 Users can interact with a RESTful API to create, view, update, and remove bookings. The application is created with Android Studio and interacts with the network via Volley.
 
-An outline of the API's functionality and how the application interacts with it is given below:
+- An outline of the API's functionality and how the application interacts with it is given below:
 
-##API Endpoint
+###API Endpoint
 https://web.socem.plymouth.ac.uk/COMP2000/ReservationApi/api/Reservations
